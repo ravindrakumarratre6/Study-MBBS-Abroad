@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad | University Insights</title>
+    <meta name="description" content="Explore top destinations to study MBBS abroad. Apply now to secure your admission!">
+    
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: "Open Sans", sans-serif;
+        }
+    </style>
+    <style>
+        @keyframes fadeInSlow {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fadeInSlow {
+            animation: fadeInSlow 1.5s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+
+  <!-- Hero Section -->
+<section class="relative w-full h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6">
+    <!-- Animated Background -->
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-700 opacity-70 animate-gradientMove"></div>
+    
+    <div class="relative z-10 animate-fadeIn">
+        <h1 class="text-5xl md:text-6xl font-bold leading-tight opacity-0 animate-fadeInSlow">
+            Study MBBS Abroad  
+        </h1>
+        <p class="mt-4 text-lg md:text-xl opacity-0 animate-fadeInSlow delay-200">
+            Affordable, world-class medical education in top universities worldwide.
+        </p>
+
+        <!-- CTA Button -->
+        <a href="#apply" class="mt-6 inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold text-lg 
+        shadow-lg transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100 animate-bounce">
+            Apply Now
+        </a>
+    </div>
+</section>
+
+
+    <!-- Why Study MBBS Abroad -->
+    <section class="max-w-5xl mx-auto my-10 px-6" data-aos="fade-up">
+        <h2 class="text-3xl  font-bold text-center">Why Study MBBS Abroad?</h2>
+        <div class="grid md:grid-cols-3 gap-6 mt-6">
+            <div class="p-6  shadow rounded-lg hover:shadow-lg transition duration-300 transform hover:scale-105">Affordable Tuition Fees</div>
+            <div class="p-6  shadow rounded-lg hover:shadow-lg transition duration-300 transform hover:scale-105">Globally Recognized Degrees</div>
+            <div class="p-6  shadow rounded-lg hover:shadow-lg transition duration-300 transform hover:scale-105">No Entrance Exams</div>
+        </div>
+    </section>
+
+    <!-- Top Countries -->
+    <section class="max-w-5xl mx-auto my-10 px-6" data-aos="fade-up">
+        <h2 class="text-3xl font-bold text-center">Top Countries for MBBS</h2>
+        <div class="grid md:grid-cols-3 gap-6 mt-6">
+            <div class="p-6 bg-white shadow rounded-lg hover:shadow-xl transition transform hover:scale-105">Russia</div>
+            <div class="p-6 bg-white shadow rounded-lg hover:shadow-xl transition transform hover:scale-105">Uzbekistan</div>
+            <div class="p-6 bg-white shadow rounded-lg hover:shadow-xl transition transform hover:scale-105">Kazakhstan</div>
+            <div class="p-6 bg-white shadow rounded-lg hover:shadow-xl transition transform hover:scale-105">Philippines</div>
+            <div class="p-6 bg-white shadow rounded-lg hover:shadow-xl transition transform hover:scale-105">Georgia</div>
+            <div class="p-6 bg-white shadow rounded-lg hover:shadow-xl transition transform hover:scale-105">Kyrgyzstan</div>
+            <div class="p-6 bg-white shadow rounded-lg hover:shadow-xl transition transform hover:scale-105">Egypt</div>
+        </div>
+    </section>
+
+    <!-- Admission Process & Eligibility -->
+    <section class="max-w-5xl mx-auto my-10 px-6" data-aos="fade-left">
+        <h2 class="text-3xl font-bold text-center">Admission Process & Eligibility</h2>
+        <ul class="list-disc pl-6 mt-6">
+            <li>Check eligibility criteria</li>
+            <li>Choose a university and country</li>
+            <li>Submit required documents</li>
+            <li>Receive admission letter</li>
+            <li>Apply for a student visa</li>
+            <li>Start your MBBS journey!</li>
+        </ul>
+    </section>
+
+    <!-- Lead Generation Form -->
+    <section id="apply" class="max-w-3xl mx-auto my-10 px-6" data-aos="zoom-in">
+        <h2 class="text-3xl font-bold text-center">Apply Now</h2>
+        <form id="leadForm" class="bg-white p-6 shadow rounded-lg mt-6">
+            <input type="text" id="name" placeholder="Full Name" class="w-full p-3 border rounded mb-4" required>
+            <input type="email" id="email" placeholder="Email" class="w-full p-3 border rounded mb-4" required>
+            <input type="tel" id="phone" placeholder="Phone Number" class="w-full p-3 border rounded mb-4" required>
+            <select id="country" class="w-full p-3 border rounded mb-4" required>
+                <option value="">Select Country</option>
+                <option>Russia</option>
+                <option>Uzbekistan</option>
+                <option>Kazakhstan</option>
+                <option>Philippines</option>
+                <option>Georgia</option>
+                <option>Kyrgyzstan</option>
+                <option>Egypt</option>
+            </select>
+            <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded w-full hover:bg-blue-700 transition">Submit</button>
+        </form>
+    </section>
+
+    <script>
+        document.getElementById("leadForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            alert("Form submitted successfully!");
+        });
+    </script>
+
+    <!-- AOS Animation Library Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+</body>
+</html>
